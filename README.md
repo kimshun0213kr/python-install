@@ -17,3 +17,28 @@ windows powershellで**Python --version**と実行した結果(筆者の場合�
 「Python: Select Interpreter」と打ち込み、エンター<br>
 ![PythonSelect Interpreter-2](https://github.com/kimshun0213kr/dice_and_caps/blob/main/src/Python_Select_Interpreter-2.png)<br>
 表示されたpythonを選択<br>
+
+## pip コマンドの使用方法
+### パッケージをインストールするとき
+パッケージのインストールの際は、以下のコマンドを使用する。
+```bash
+pip install パッケージ名
+```
+例えば[pandas](https://pandas.pydata.org/docs/user_guide/index.html)をインストールする際は以下のようにpower shell上で実行する。
+```bash
+pip install pandas
+```
+
+### パッケージのアンインストール
+パッケージのアンインストールをする際は以下のコマンドを使用する。
+```bash
+pip uninstall パッケージ名
+```
+途中で以下のように聞かれるので、その際はyと入力し、Enterを押すことでアンインストール作業が継続される。
+```bash
+Proceed (Y/n)? y
+```
+また、途中でのこの確認が面倒である場合には、先述のアンインストールコマンドの末尾に" -y"とつければよい。
+```bash
+pip uninstall パッケージ名 -y
+```
