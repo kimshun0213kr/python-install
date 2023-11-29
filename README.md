@@ -1,5 +1,4 @@
 # pythonの開発環境の構築
-***(構築が済んでいるなら飛ばしてください)***<br>
 まずは以下のリンクより、python3をインストールしてください。<br>
 [python3.12のインストール](https://apps.microsoft.com/detail/9NCVDN91XZQP?ocid=pdpshare&hl=en-us&gl=US)<br>
 これがインストール出来たら、スタート メニュー (左下の Windows アイコン)からwindows powershellを起動し、**Python --version**と入力し、Enterを押します。<br>
