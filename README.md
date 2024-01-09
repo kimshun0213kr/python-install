@@ -4,7 +4,7 @@
 これがインストール出来たら、スタート メニュー (左下の Windows アイコン)からwindows powershellを起動し、**Python --version**と入力し、Enterを押します。<br>
 すると、以下のように表示されます。このように表示されていたらインストール成功です。
 ![python--version.png](https://github.com/kimshun0213kr/dice_and_caps/blob/main/src/python--version.png)<br>
-windows powershellで**Python --version**と実行した結果(筆者の場合、バージョンが3.10.7であることが分かる。)<br>
+<small>windows powershellで**Python --version**と実行した結果(筆者の場合、バージョンが3.10.7であることが分かる。)</small><br>
 このようにしてpythonがインストールされていることを確認したら、以下のリンクよりVisual Studio Codeをインストールしてください。<br>
 [Visual Studio Codeのインストール](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)<br>
 インストール出来たら、以下のリンクより、日本語化パッケージとPython用の拡張機能をダウンロードしてください。<br>
